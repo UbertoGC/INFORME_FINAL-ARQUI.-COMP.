@@ -1,0 +1,11 @@
+#JSGF V1.0;
+grammar com.sarf.talkingjava.example;
+public <startExample> = (apagar |luz |del | cuarto | de | la | sala | 
+biblioteca | encender | sala | vital | cuarto | contable | tesorero | 
+cajero | interventor | todo | onda | contador | ortador | nuevaclave |
+ no | si | como | nunca | jamas | mentira | inicioescritura | comida | mama | papa | hermano |
+tio | abuelo | ser | soy | tú | yo | él | ella | sirve | no | diga | mentiras | dice) *;
+public <endExample> = [salir | Salir ];
+
+
+
